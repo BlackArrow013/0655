@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Acceso
+comment0.text=\r\n\ La\ clase\ acceso\ representa\ un\ \u00FAnico\ acceso\ al\ servidor\ de\ datos,\ de\ manera\r\n\ que\ contendr\u00E1\ la\ informaci\u00F3n\ perteneciente\ al\ momento\ del\ acceso.\r\n\ \r\n\ @author\ (Jorge\ Jaular\ Lasaga)\ \r\n\ @version\ (25/02/2018)\r\n
+comment1.params=dia\ mes\ ano\ hora\ minutos
+comment1.target=Acceso(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ El\ constructor\ de\ la\ clase\ Acceso.\ Se\ permite\ indicar\ en\ qu\u00E9\ momento\r\n\ se\ accedi\u00F3\ a\ los\ datos.\r\n
+comment2.params=
+comment2.target=int\ getHoraAcceso()
+comment2.text=\r\n\ Este\ m\u00E9todo\ devuelve\ la\ hora\ de\ acceso.\r\n\ @return\ horaAcceso\ -\ devuelve\ la\ hora\ de\ acceso.\r\n
+numComments=3
