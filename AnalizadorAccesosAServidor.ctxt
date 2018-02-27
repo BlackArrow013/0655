@@ -1,7 +1,13 @@
 #BlueJ class context
 comment0.target=AnalizadorAccesosAServidor
 comment0.text=\r\n\ Esta\ clase\ analiza\ los\ accesos\ al\ servidor.\ Se\ compondr\u00E1\ de\ dos\ m\u00E9todos,\ uno\r\n\ que\ importar\u00E1\ un\ documento\ de\ texto\ con\ los\ accesos\ al\ servidor\ y\ otro\ que\ \r\n\ obtendr\u00E1\ qu\u00E9\ hora\ tiene\ m\u00E1s\ accesos.\r\n\ \r\n\ @author\ (Jorge\ Jaular\ Lasaga)\ \r\n\ @version\ (25/02/2018)\r\n
-comment1.params=nombreArchivo
-comment1.target=void\ analizarArchivoDeLog(java.lang.String)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=2
+comment1.params=
+comment1.target=AnalizadorAccesosAServidor()
+comment1.text=\r\n\ El\ constructor\ de\ la\ clase.\ Crea\ un\ analizador\ de\ accesos\ al\ servidor.\r\n
+comment2.params=nombreArchivo
+comment2.target=void\ analizarArchivoDeLog(java.lang.String)
+comment2.text=\r\n\ Este\ m\u00E9todo\ permite\ cargar\ los\ datos\ de\ acceso\ al\ servidor.\r\n\ \r\n\ @param\ nombreArchivo\ -\ se\ introduce\ el\ nombre\ del\ archivo\ que\ servir\u00E1\ para\ cargar\ los\ datos.\r\n
+comment3.params=
+comment3.target=int\ obtenerHoraMasAccesos()
+comment3.text=\r\n\ Este\ m\u00E9todo\ comprueba\ a\ qu\u00E9\ hora\ se\ produjeron\ m\u00E1s\ conexiones\ o\ accesos\ al\ servidor.\ Devuelve\ la\ hora\ con\ m\u00E1s\ conexiones,\ y\ en\ caso\ de\ empate\ devuelve\ la\ hora\ m\u00E1s\ alta.\ Si\ no\ hay\ conexiones\r\n\ devuelve\ -1.\r\n\ @return\ horaConMasAccesos\ -\ devuelve\ la\ hora\ con\ m\u00E1s\ conexiones.\ \r\n
+numComments=4
